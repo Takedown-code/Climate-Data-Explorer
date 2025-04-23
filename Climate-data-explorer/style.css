@@ -1,10 +1,11 @@
-/* Reset some default browser styles */
+/* Reset default browser styling */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   
+  /* Base body style */
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #f9fbfc;
@@ -12,6 +13,7 @@
     line-height: 1.6;
   }
   
+  /* Header style */
   header {
     background: #003f88;
     color: #fff;
@@ -22,31 +24,16 @@
   
   header h1 {
     font-size: 2rem;
-    margin-bottom: 0.5rem;
   }
   
-  nav {
-    margin-top: 0.5rem;
-  }
-  
-  nav a {
-    margin: 0 1rem;
-    color: #aad8ff;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  
-  nav a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-  }  
-  
+  /* Main content wrapper */
   main {
     padding: 2rem;
     max-width: 1000px;
     margin: auto;
   }
   
+  /* Dropdown and label container */
   .controls {
     display: flex;
     flex-wrap: wrap;
@@ -59,6 +46,7 @@
     font-weight: 600;
   }
   
+  /* Styling for dropdowns */
   .controls select {
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -73,6 +61,7 @@
     outline: none;
   }
   
+  /* Chart container styling */
   .chart-container {
     background: white;
     padding: 2rem;
@@ -80,6 +69,7 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
   
+  /* Footer */
   footer {
     text-align: center;
     padding: 1rem;
@@ -89,6 +79,7 @@
     margin-top: 3rem;
   }
   
+  /* Responsive adjustments */
   @media (max-width: 600px) {
     .controls {
       flex-direction: column;

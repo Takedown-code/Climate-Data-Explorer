@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta tags for proper rendering and responsiveness -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   <title>Climate Data Explorer</title>
+
+  <!-- Link to external CSS -->
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Chart.js CDN for dynamic graph rendering -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <header>
-        <h1>🌍 Climate Data Explorer</h1>
-      </header>
-      
+  <!-- Page Header -->
+  <header>
+    <h1>🌍 Climate Data Explorer</h1>
+  </header>
 
+  <!-- Main Content -->
   <main>
+    <!-- User Controls: dropdowns for selecting data metric and year range -->
     <section class="controls">
       <label for="metric">Metric:</label>
       <select id="metric">
@@ -30,15 +38,18 @@
       </select>
     </section>
 
+    <!-- Chart Display Section -->
     <section class="chart-container">
       <canvas id="climateChart"></canvas>
     </section>
   </main>
 
+  <!-- Footer with attribution -->
   <footer>
     <p>Data is simulated for demo purposes.</p>
   </footer>
 
+  <!-- JavaScript functionality -->
   <script src="script.js"></script>
 </body>
 </html>

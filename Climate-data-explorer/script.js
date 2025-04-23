@@ -1,6 +1,7 @@
+// Get canvas context for Chart.js
 const ctx = document.getElementById('climateChart').getContext('2d');
 
-// Dummy data (simulated for demo)
+// Simulated climate data for different metrics and time ranges
 const dataSets = {
   temperature: {
     '2000s': [14.1, 14.3, 14.4, 14.6, 14.7],
@@ -19,8 +20,10 @@ const dataSets = {
   },
 };
 
+// X-axis labels (years)
 const labels = ['2000', '2005', '2010', '2015', '2020'];
 
+// Create initial chart with default data (temperature in 2000s)
 let chart = new Chart(ctx, {
   type: 'line',
   data: {
@@ -41,9 +44,11 @@ let chart = new Chart(ctx, {
   }
 });
 
+// Attach event listeners to both dropdowns
 document.getElementById('metric').addEventListener('change', updateChart);
 document.getElementById('year').addEventListener('change', updateChart);
 
+// Update chart when a user changes metric or year
 function updateChart() {
   const metric = document.getElementById('metric').value;
   const year = document.getElementById('year').value;
@@ -54,5 +59,6 @@ function updateChart() {
     sea: 'Sea Level (mm)',
     co2: 'CO₂ Levels (ppm)'
   }[metric];
-  chart.update();
+
+  chart.update(); // Re-render the chart with new data
 }
