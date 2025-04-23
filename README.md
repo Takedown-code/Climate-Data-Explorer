@@ -54,7 +54,7 @@ During the design phase of this project, wireframes were created to help visuali
 
 ### Desktop Layout
 
-![Climate Data Explorer Wireframe](./assets/wireframes/Wireframe-Climate.png)
+![Climate Data Explorer Wireframe](./assets/wireframes/wireframe-climate.png)
 
 > This wireframe was used to plan the arrangement of the header, dropdown controls, chart container, and footer. It helped guide the development of a clean and responsive layout.
 
