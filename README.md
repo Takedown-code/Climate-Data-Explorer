@@ -93,13 +93,13 @@ During the design phase of this project, wireframes were created to help visuali
 ```
 📁 climate-data-explorer/
 │
-├── index.html       # Main HTML page
 ├──assets/
 │   └── wireframes/
 │        └── climate-wireframe.png
-├── README.md        # Project overview and documentation
+├── index.html       # Main HTML page
 ├── script.js        # JavaScript logic for interactivity
 ├── style.css        # Stylesheet
+└── README.md        # Project overview and documentation
 
 ```
 
