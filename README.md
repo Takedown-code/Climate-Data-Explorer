@@ -50,13 +50,14 @@ An interactive front-end web application that allows users to explore climate ch
 
 ## 🧩 Wireframes
 
-During the design phase of this project, wireframes were created to help visualize the layout and ensure a clear, user-focused structure.
+To plan the layout and user interface of the Climate Data Explorer, a desktop wireframe was created. This helped visualize the placement of key UI components including the metric selector, year range filter, chart area, and footer.
 
 ### Desktop Layout
 
-![Climate Data Explorer Wireframe](./Climate-data-explorer\assets\wireframes\wireframe-climate.png
+![Climate Data Explorer Wireframe](./assets/wireframes/wireframe-climate.png)
 
-> This wireframe was used to plan the arrangement of the header, dropdown controls, chart container, and footer. It helped guide the development of a clean and responsive layout.
+> This wireframe served as a foundational guide for layout structure, ensuring that the final implementation was clean, user-friendly, and responsive across devices.
+
 
 ---
 
