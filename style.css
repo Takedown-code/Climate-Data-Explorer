@@ -1,0 +1,102 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fbfc;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #003f88;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  nav {
+    margin-top: 0.5rem;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    color: #aad8ff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }  
+  
+  main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  
+  .controls label {
+    font-weight: 600;
+  }
+  
+  .controls select {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    transition: border-color 0.3s;
+  }
+  
+  .controls select:focus {
+    border-color: #0077b6;
+    outline: none;
+  }
+  
+  .chart-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f1f1f1;
+    font-size: 0.95rem;
+    color: #666;
+    margin-top: 3rem;
+  }
+  
+  @media (max-width: 600px) {
+    .controls {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .chart-container {
+      padding: 1rem;
+    }
+  }
+  
