@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Climate Data Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>🌍 Climate Data Explorer</h1>
+      </header>
+      
+
+  <main>
+    <section class="controls">
+      <label for="metric">Metric:</label>
+      <select id="metric">
+        <option value="temperature">Temperature (°C)</option>
+        <option value="sea">Sea Level (mm)</option>
+        <option value="co2">CO₂ Levels (ppm)</option>
+      </select>
+
+      <label for="year">Year Range:</label>
+      <select id="year">
+        <option value="2000s">2000–2020</option>
+        <option value="1990s">1990–1999</option>
+        <option value="1980s">1980–1989</option>
+      </select>
+    </section>
+
+    <section class="chart-container">
+      <canvas id="climateChart"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p>Data is simulated for demo purposes.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
