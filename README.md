@@ -6,7 +6,7 @@ An interactive front-end web application that allows users to explore climate ch
 
 ## 🚀 Live Demo
 
-[Click here to view the project on GitHub Pages](https://Takedown-code.github.io/climate-data-explorer/)
+[Click here to view the project on GitHub Pages](https://takedown-code.github.io/Climate-Data-Explorer/)
 
 ---
 
