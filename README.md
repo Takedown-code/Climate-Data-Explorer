@@ -98,9 +98,9 @@ To plan the layout and user interface of the Climate Data Explorer, a desktop wi
 │   └── wireframes/
 │        └── climate-wireframe.png
 ├── index.html       # Main HTML page
+├── README.md        # Project overview and documentation
 ├── script.js        # JavaScript logic for interactivity
-├── style.css        # Stylesheet
-└── README.md        # Project overview and documentation
+└── style.css        # Stylesheet
 
 ```
 
